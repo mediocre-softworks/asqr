@@ -7,4 +7,5 @@
     <color name="colorText">#031927</color> <!-- MAASTRICHT BLUE -->
     <color name="colorTextWhite">#FCE6D8</color> <!-- MAASTRICHT BLUE (inverted) -->
     <color name="colorError">#B80C09</color> <!-- INTERNATIONAL ORANGE -->
+    <color name="colorGood">#57A773</color> <!-- SHINY SHAMROCK -->
 </resources>

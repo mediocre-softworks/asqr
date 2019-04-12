@@ -5,6 +5,9 @@
     <!-- generic strings -->
     <string name="start">Start</string>
     <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="good">Good</string>
+    <string name="bad">Bad</string>
 
     <!-- Menu strings -->
     <string name="menuSingle">Single language quiz</string>
@@ -22,4 +25,7 @@
     <string name="settingsInterpunctuation">Ignore interpunctuation</string>
     <string name="settingsCase">Case sensitive</string>
     <string name="settingsNight">Night mode</string>
+
+    <!-- Quiz -->
+    <string name="toastBack">Come back soon!</string>
 </resources>

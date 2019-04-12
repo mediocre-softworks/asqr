@@ -17,7 +17,6 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -25,13 +24,16 @@
         </activity>
         <activity
             android:name=".SettingsActivity"
-            android:parentActivityName=".MainMenuActivity"></activity>
+            android:parentActivityName=".MainMenuActivity" />
         <activity
             android:name=".AboutActivity"
-            android:parentActivityName=".MainMenuActivity"></activity>
+            android:parentActivityName=".MainMenuActivity" />
         <activity
             android:name=".MainActivity"
-            android:parentActivityName=".MainMenuActivity"></activity>
+            android:parentActivityName=".MainMenuActivity" />
+        <activity
+            android:name=".SingleQuizActivity"
+            android:parentActivityName=".MainMenuActivity" />
     </application>
 
 </manifest>
