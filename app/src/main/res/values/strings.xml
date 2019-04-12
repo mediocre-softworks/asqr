@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ASQR</string>
+    <string name="app_name_long">A Simple Question Review tool</string>
+
+    <!-- generic strings -->
+    <string name="start">Start</string>
+    <string name="back">Back</string>
+
+    <!-- Menu strings -->
+    <string name="menuSingle">Single language quiz</string>
+    <string name="menuFull">Full quiz</string>
+    <string name="menuImport">Import quiz</string>
+    <string name="menuEditor">Quiz editor</string>
+    <string name="menuSettings">Settings</string>
+    <string name="menuAbout">About</string>
+
+    <!-- About -->
+    <string name="aboutAuthor">Made with love by</string>
+    <string name="aboutAuthors">Konrad Jasiński\nmediocre.pl</string>
+</resources>

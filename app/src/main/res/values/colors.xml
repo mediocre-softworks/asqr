@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#D9DCD6</color> <!-- GAINSBORO -->
+    <color name="colorPrimary">#279AF1</color> <!-- BRILLIANT AZURE _-->
+    <color name="colorPrimaryDark">@color/colorPrimary</color> <!-- BRILLIANT AZURE _-->
+    <color name="colorAccent">#296EB4</color> <!-- GREEN-BLUE -->
+    <color name="colorText">#031927</color> <!-- MAASTRICHT BLUE -->
+    <color name="colorTextWhite">#FCE6D8</color> <!-- MAASTRICHT BLUE (inverted) -->
+    <color name="colorError">#B80C09</color> <!-- INTERNATIONAL ORANGE -->
+</resources>
