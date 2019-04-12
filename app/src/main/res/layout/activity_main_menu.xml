@@ -76,6 +76,7 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="64dp"
+        android:onClick="startSettings"
         android:text="@string/menuSettings"
         android:textColor="@color/colorTextWhite"
         app:layout_constraintBottom_toBottomOf="parent"

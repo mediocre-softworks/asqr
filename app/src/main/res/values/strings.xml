@@ -17,4 +17,9 @@
     <!-- About -->
     <string name="aboutAuthor">Made with love by</string>
     <string name="aboutAuthors">Konrad Jasiński\nMediocre Game Studios</string>
+
+    <!-- Settings -->
+    <string name="settingsInterpunctuation">Ignore interpunctuation</string>
+    <string name="settingsCase">Case sensitive</string>
+    <string name="settingsNight">Night mode</string>
 </resources>

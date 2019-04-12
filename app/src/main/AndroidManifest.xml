@@ -11,8 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity
-            android:name=".MainMenuActivity">
+        <activity android:name=".MainMenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -24,12 +23,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".AboutActivity"
-            android:parentActivityName=".MainMenuActivity">
-        </activity>
-        <activity android:name=".MainActivity"
-            android:parentActivityName=".MainMenuActivity">
-        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName=".MainMenuActivity"></activity>
+        <activity
+            android:name=".AboutActivity"
+            android:parentActivityName=".MainMenuActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".MainMenuActivity"></activity>
     </application>
 
 </manifest>

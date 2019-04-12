@@ -5,62 +5,59 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
-    tools:context=".AboutActivity">
+    tools:context=".SettingsActivity">
 
-    <TextView
-        android:id="@+id/textName"
-        android:layout_width="wrap_content"
+    <Switch
+        android:id="@+id/switchInterp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/app_name"
-        android:textAppearance="@android:style/TextAppearance.Material.Display3"
+        android:switchTextAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:text="@string/settingsInterpunctuation"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
         android:textColor="@color/colorText"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textNameFull"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:text="@string/app_name_long"
-        android:textColor="@color/colorText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textName" />
-
-    <TextView
-        android:id="@+id/textAuthor"
-        android:layout_width="wrap_content"
+    <Switch
+        android:id="@+id/switchCase"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/aboutAuthor"
-        android:textAppearance="@android:style/TextAppearance.Material.Display1"
+        android:checked="true"
+        android:showText="false"
+        android:splitTrack="false"
+        android:switchTextAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:text="@string/settingsCase"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
         android:textColor="@color/colorText"
-        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textNameFull" />
+        app:layout_constraintTop_toBottomOf="@+id/switchInterp" />
 
-    <TextView
-        android:id="@+id/textAuthors"
-        android:layout_width="wrap_content"
+    <Switch
+        android:id="@+id/switchNight"
+        android:layout_width="347dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/aboutAuthors"
-        android:textAlignment="center"
+        android:switchTextAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:text="@string/settingsNight"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
         android:textColor="@color/colorText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textAuthor" />
+        app:layout_constraintTop_toBottomOf="@+id/switchCase" />
 
     <Button
         android:id="@+id/buttonStart"
